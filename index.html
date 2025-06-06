@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <div class="main">
+        <div class="top-bar">
+            <div class="search-bar">
+                <input type="text" name="search-box" id="searchBox" placeholder="Enter city name">
+            </div>
+            <div class="search-button">
+                <button><img src="./images/images/search.png" alt="search-button"></button>
+            </div>
+        </div>
+        <div class="weather">
+            <!-- weather icon and info should be displayed here type shi -->
+             <div class="main-temp">
+                <img src="./images/images/clear.png" alt="weather-icon">
+                    <h1 id="cityName">City Name</h1>
+                    <p id="temperature">25°C</p>
+                    <p id="description">Sunny</p>
+             </div>
+             <div class="weather-details">
+                <div class="humidity-section">
+                    <div class="humidity-image">
+                        <img src="./images/images/humidity.png" alt="humidity-icon">
+                    </div>
+                    <div class="humidity-text">
+                        <h2>Humidity</h2>
+                        <p id="humidity">60%</p>
+                    </div>
+                </div>
+                <div class="wind-section">
+                    <div class="wind-image">
+                        <img src="./images/images/wind.png" alt="wind-icon">
+                    </div>
+                    <div class="wind-text">
+                        <h2>Wind Speed</h2>
+                        <p id="windSpeed">15 km/h</p>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
